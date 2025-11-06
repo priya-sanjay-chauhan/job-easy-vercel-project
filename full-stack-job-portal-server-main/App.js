@@ -12,8 +12,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
-      // "https://job-portal-client-main.vercel.app",
-      // "https://job-portal-client-main.vercel.app/",
+      "job-easy-vercel-project.vercel.app",
       "http://localhost:5173",
       "http://localhost:5174",
       "http://localhost:8000",

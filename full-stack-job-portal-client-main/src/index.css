@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: rgb(54, 55, 245); /* Bright Blue */
+  --color-secondary: rgb(84, 85, 247); /* Light Blue */
+  --color-accent: rgb(44, 45, 235); /* Deep Blue */
+  --color-neutral: rgb(240, 240, 255); /* Cool White */
+  --color-white: #fff;
+  --color-black: #1c1917;
+  --color-gray: #d6d3d1;
+  --color-danger: #dc2626;
+  --shadow-dark: rgba(54, 55, 245, 0.3); /* Blue-tinted shadow */
+  --shadow-medium: rgba(54, 55, 245, 0.2); /* Blue-tinted shadow */
+  --shadow-light: rgba(54, 55, 245, 0.1); /* Blue-tinted shadow */
+}

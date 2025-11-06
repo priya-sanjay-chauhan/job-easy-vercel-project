@@ -12,8 +12,8 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
+      "https://job-easy-vercel-project-d4dg.vercel.app",
       "https://job-easy-vercel-project-d4dg.vercel.app/",
-      "https://job-easy-vercel-project-d4dg.vercel.app//",
       "http://localhost:5173",
       "http://localhost:5174",
       "http://localhost:8000",
